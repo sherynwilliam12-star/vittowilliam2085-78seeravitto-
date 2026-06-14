@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Info</title>
+    <style>
+body {
+       font-family: Arial; 
+       text-align:center; 
+       background:#f5f5f5; 
+      }
+.card {
+        background:white; 
+        padding:20px; 
+        margin:50px auto; 
+        width:350px; 
+        border-radius:10px; 
+       box-shadow:0 0 10px gray; 
+     }
+</style>
+        }
+        img {
+            width: 200px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>{{ product.name }}</h2>
+    <img src="/static/images/{{ product.image }}">
+    
+    <p><b>FRP:</b> {{ product.FRP }}</p>
+    <p><b>Rubber:</b> {{ product.Rubber }}</p>
+    <p><b>Metal Part:</b> {{ product.MP }}</p>
+    <p><b>Work Order:</b> {{ product.WO }}</p>
+</div>
+
+</body>
+</html>

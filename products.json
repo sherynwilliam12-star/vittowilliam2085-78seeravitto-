@@ -1,0 +1,12 @@
+{
+  "P0001": {
+    "company": "Shree Radhe Industries",
+    "name": "220kV 120KN",
+    "FRP": "FRP Rod (Taporel)",
+    "rubber": "Silicone Rubber (TD 200)",
+    "MP": "SGCI / Forge",
+    "WO": "0001",
+    "image": "/static/images/product1.jpg",
+    "logo": "/static/images/logo.png"
+  }
+}
